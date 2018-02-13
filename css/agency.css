@@ -126,7 +126,7 @@ img::-moz-selection {
   font-weight: 400;
   padding: 0.75em 0;
   letter-spacing: 1px;
-  color: white;
+  color: lightgrey;
   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
@@ -448,12 +448,14 @@ header.masthead .intro-text .intro-heading {
   text-align: center;
   color: white;
   border: 7px solid #e9ecef;
+  /* border: 7px solid 'blue'; */
   border-radius: 100%;
-  background-color: #fed136;
+  /* background-color: #fed136; */
+  background-color: lightblue;
 }
 
 .timeline > li .timeline-image h4 {
-  font-size: 10px;
+  font-size: 100px;
   line-height: 14px;
   margin-top: 12px;
 }
